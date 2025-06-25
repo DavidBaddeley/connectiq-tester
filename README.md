@@ -10,6 +10,14 @@ The repo currently contains ConnectIQ SDK version `8.1.1` and the device files a
 
 First you need to create a ciq.zip file from the /ciq directory that contains both the /Devices and /Fonts folders, the ciq.zip is not included in this repo as it exceeds Githubs 100mb limit. Once you have a ciq.zip file in the root folder you can build the docker image.
 
+The zip file must not contain the top level `ciq` folder so it's important that
+you don't create it from the root. Easiest way would be to zip the content from
+the `ciq` directory, e.g:
+
+```sh
+(cd ciq && zip -r ../ciq.zip *)
+```
+
 To build the docker image initally run:
 ```
 docker build --platform linux/amd64 -t connect-tester:latest .
@@ -22,6 +30,20 @@ docker run --platform linux/amd64 --rm -v {PATH TO YOUR APP DIRECTORY}:/app -w /
 The Docker run command has 2 optional parameters:
 * device_id: you can either specify a single device to test (eg. `venu`) or set to `all` to load all supported devices as listed in your `manifest.xml` file. If you don't specify a device id, it will default to `fenix7`.
 * certificate_path: the path of the certificate that will be used to compile the application relatively to the folder of your application. If you don't provide one, a temporary certificate will be generated automatically.
+
+> [!TIP]
+> The certificate must exist within the Docker image. If needed you can mount it
+> separately and refer to it at the mount point, e.g:
+>
+> ```sh
+> docker run \
+>   --platform linux/amd64 \
+>   --rm
+>   -v {PATH TO YOUR APP DIRECTORY}:/app \
+>   -v {LOCAL PATH TO CERTIFICATE}:/app/cert.der \
+>   -w /app connect-tester:latest \
+>   all /app/cert.der
+> ```
 
 The flag `-v` binds the folder containing your application to the `app` folder in the container. The flag `-w` tells the container to work in this repository (it is the working directory). It is required that the working directory matches the path where you bound your application in the container. With this command all devices will be tested
 
