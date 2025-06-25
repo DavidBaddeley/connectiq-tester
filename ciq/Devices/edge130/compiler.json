@@ -1,0 +1,169 @@
+{
+    "alphaBlendingSupport": false,
+    "antiAliasedFontSupport": false,
+    "appTypes": [
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "datafield"
+        }
+    ],
+    "bitsPerPixel": 1,
+    "deviceFamily": "rectangle-230x303",
+    "deviceGroup": "Edge",
+    "deviceId": "edge130",
+    "deviceVersion": "722eeea457636580f75a28ae6c94dcea8ad83696",
+    "displayName": "Edge® 130",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-01913-00",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-01913-00/v/cf-sm-a859efd3-adee-4924-ad86-8883b05468fd.jpg",
+    "launcherIcon": {
+        "height": 35,
+        "width": 35
+    },
+    "orientation": 0,
+    "palette": {
+        "colors": [
+            "000000",
+            "FFFFFF"
+        ],
+        "isResourcePalette": true
+    },
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.1.1",
+            "firmwareVersion": 360,
+            "languages": [
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B2909-00"
+        },
+        {
+            "connectIQVersion": "3.1.8",
+            "firmwareVersion": 380,
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ind",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zsm",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "zht",
+                    "fontSet": "apac_twn"
+                },
+                {
+                    "code": "jpn",
+                    "fontSet": "apac_jpn"
+                },
+                {
+                    "code": "kor",
+                    "fontSet": "apac_kor"
+                },
+                {
+                    "code": "tha",
+                    "fontSet": "apac_tha"
+                },
+                {
+                    "code": "vie",
+                    "fontSet": "apac_vie"
+                }
+            ],
+            "number": "006-B3092-00"
+        }
+    ],
+    "resolution": {
+        "height": 303,
+        "width": 230
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B2909-00"
+}

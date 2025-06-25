@@ -1,0 +1,134 @@
+{
+    "alphaBlendingSupport": true,
+    "appTypes": [
+        {
+            "memoryLimit": 1048576,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 1048576,
+            "type": "widget"
+        },
+        {
+            "memoryLimit": 131072,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "deviceFamily": "rectangle-282x470",
+    "deviceGroup": "Edge",
+    "deviceId": "edge1030bontrager",
+    "displayName": "Edge® 1030 / Bontrager",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-01758-05",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-01758-10/v/pd-01-sm.jpg",
+    "launcherIcon": {
+        "height": 36,
+        "width": 36
+    },
+    "menuBar": {
+        "location": {
+            "height": 51,
+            "width": 282,
+            "x": 98,
+            "y": 535
+        },
+        "portraitImage": "bontrager_edge1030_h_menubar.png"
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.3.1",
+            "firmwareVersion": 1340,
+            "languages": [
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B3095-00"
+        }
+    ],
+    "resolution": {
+        "height": 470,
+        "width": 282
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B3095-00"
+}

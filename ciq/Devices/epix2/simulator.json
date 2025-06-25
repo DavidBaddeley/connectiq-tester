@@ -1,0 +1,3086 @@
+{
+    "appStorageCapacity": 10485760,
+    "complications": {
+        "time": {
+            "showAmPm": true
+        }
+    },
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GPS L5",
+                "GALILEO L1",
+                "GALILEO L5",
+                "GLONASS",
+                "BEIDOU L1",
+                "BEIDOU L5",
+                "SATIQ"
+            ],
+            "name": "All SKUs"
+        }
+    ],
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "onBack",
+                "maxDistToEdge": 81,
+                "minSwipeDeltaX": 65,
+                "minSwipeDeltaY": 65
+            },
+            {
+                "gesture": "swipeLeft"
+            },
+            {
+                "gesture": "swipeUp",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeDown",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 416,
+            "width": 416,
+            "x": 115,
+            "y": 268
+        },
+        "shape": "round"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_ROBOTO_19B",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_26B",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_29B",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_34B",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_37B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_19B",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_26B",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_29B",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_34B",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_37B",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_22B",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_chn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_24",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_35",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_38",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_46",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_50",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_24",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_35",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_38",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_46",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_50",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_27",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_twn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_24",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_35",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_38",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_46",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_50",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_24",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_35",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_38",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_46",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_50",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NOTO_SANS_SC_BOLD_94_CHN_27",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_24B",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_35B",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_38B",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_46B",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_50B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_24B",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_35B",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_38B",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_46B",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_50B",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_KOSUGI_REGULAR-94_JPN_27B",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_24B",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_35B",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_38B",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_46B",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_50B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_24B",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_35B",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_38B",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_46B",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_50B",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_NANUM_GOTHIC_BOLD_KOR_27B",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "small"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "medium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_vie",
+            "fonts": [
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_31B",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_42B",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_47B",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_55B",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_59B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_31B",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_42B",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_47B",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_55B",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_59B",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_54",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_73",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_84",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B394300_ROBOTO_CONDENSED_BOLD_34B",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_BOLD_NUMBER_30",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_45",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B394300_BIONIC_COND_BOLD_NUMBER_62",
+                    "name": "simExtNumber2"
+                },
+                {
+                    "filename": "Bionic_Bold_Number_Only",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-3",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-3",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Regular",
+                    "name": "NanumGothicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular_Garmin",
+                    "name": "PridiRegularGarmin",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_bold",
+                    "name": "SakkalMajallaBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "sakkal_majalla_roman",
+                    "name": "SakkalMajallaRoman",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_bd",
+                    "name": "Swiss721Bold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "swiss_721_reg",
+                    "name": "Swiss721Regular",
+                    "type": "system_ttf"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "cacheUpdate": false,
+        "contentArea": {
+            "height": 103,
+            "width": 274,
+            "x": 112,
+            "y": 13
+        },
+        "iconArea": {
+            "height": 60,
+            "width": 60,
+            "x": 40,
+            "y": 34
+        },
+        "liveUpdates": true
+    },
+    "graphicsResourcePoolSize": 3145728,
+    "image": "epix2.png",
+    "keys": [
+        {
+            "behavior": "onSelect",
+            "id": "enter",
+            "location": {
+                "height": 100,
+                "width": 82,
+                "x": 550,
+                "y": 281
+            }
+        },
+        {
+            "behavior": "previousPage",
+            "id": "up",
+            "location": {
+                "height": 89,
+                "width": 37,
+                "x": 5,
+                "y": 437
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 89,
+                "width": 37,
+                "x": 5,
+                "y": 437
+            }
+        },
+        {
+            "behavior": "nextPage",
+            "id": "down",
+            "location": {
+                "height": 70,
+                "width": 53,
+                "x": 35,
+                "y": 595
+            }
+        },
+        {
+            "id": "clock",
+            "isHold": true,
+            "location": {
+                "height": 70,
+                "width": 53,
+                "x": 35,
+                "y": 595
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 57,
+                "width": 44,
+                "x": 566,
+                "y": 603
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "area": {
+                    "height": 416,
+                    "width": 210,
+                    "x": 206,
+                    "y": 0
+                },
+                "borderDisplay": {
+                    "width": 2
+                },
+                "borderWidth": 2,
+                "entries": [
+                    {
+                        "alignment": "left",
+                        "height": 32,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 46
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 32,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 112
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 32,
+                        "selection": true,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 178
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 32,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 243
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 32,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 309
+                    }
+                ],
+                "selectionDisplay": {
+                    "height": 67,
+                    "width": 4,
+                    "x": 5,
+                    "y": 163
+                },
+                "type": "partial"
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 331,
+                                    "x": 207,
+                                    "y": 259
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 117
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 416,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 266,
+                                    "x": 208,
+                                    "y": 186
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 85
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 266,
+                                    "x": 208,
+                                    "y": 129
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 227,
+                                    "x": 208,
+                                    "y": 123
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 55
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 283,
+                                    "x": 207,
+                                    "y": 137
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 25
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 146,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 135
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 227,
+                                    "x": 208,
+                                    "y": 92
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 283
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields A"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 259,
+                                    "x": 208,
+                                    "y": 140
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 142,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 283,
+                                    "x": 208,
+                                    "y": 111
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 132,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 142
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 259,
+                                    "x": 208,
+                                    "y": 76
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 142,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 274
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields B"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 260,
+                                    "x": 208,
+                                    "y": 186
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 85
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 208,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 115,
+                                    "y": 106
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 110,
+                                    "y": 33
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 206,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 210
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "bottom"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 94,
+                                    "y": 106
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 95,
+                                    "y": 33
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 206,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 210
+                                },
+                                "obscurity": [
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields C"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 208,
+                                    "y": 95
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 43
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 239,
+                                    "x": 208,
+                                    "y": 89
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 25
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 105
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 239,
+                                    "x": 208,
+                                    "y": 89
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 210
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 208,
+                                    "y": 80
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 315
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields A"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "center",
+                                    "width": 153,
+                                    "x": 208,
+                                    "y": 140
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 58
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 147,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 197,
+                                    "x": 101,
+                                    "y": 102
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 104,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 116,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 149
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 197,
+                                    "x": 101,
+                                    "y": 102
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 103,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 116,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 149
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "center",
+                                    "width": 153,
+                                    "x": 208,
+                                    "y": 102
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 147,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 267
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields B"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 115,
+                                    "y": 189
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 118,
+                                    "y": 118
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 94,
+                                    "y": 189
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 88,
+                                    "y": 118
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 115,
+                                    "y": 106
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 118,
+                                    "y": 36
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "bottom"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 94,
+                                    "y": 106
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 88,
+                                    "y": 36
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields C"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 208,
+                                    "y": 95
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 44
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 239,
+                                    "x": 208,
+                                    "y": 89
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 26
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 105
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 164,
+                                    "x": 104,
+                                    "y": 82
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 101,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 164,
+                                    "x": 104,
+                                    "y": 82
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 101,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 208,
+                                    "y": 89
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 313
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "5 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 45
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 93
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 102,
+                                    "y": 38
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 105
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 93
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 102,
+                                    "y": 35
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 105
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 82
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 102,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 82
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 102,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 102,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 78
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 103,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 313
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "6 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 68
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 73,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 75
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 75
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 350,
+                                    "x": 208,
+                                    "y": 78
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 87,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 164
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 253
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 253
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 50
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 74,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 342
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "7 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 68
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 73,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 28
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 75
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 28
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 75
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 75
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 26
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 164
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 165,
+                                    "x": 105,
+                                    "y": 75
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 26
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 164
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 253
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 105,
+                                    "y": 77
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 105,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 253
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 194,
+                                    "x": 208,
+                                    "y": 50
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 74,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 342
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "8 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "center",
+                                    "width": 224,
+                                    "x": 208,
+                                    "y": 124
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 56
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 168,
+                                    "x": 79,
+                                    "y": 68
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 87,
+                                    "width": 138,
+                                    "x": 0,
+                                    "y": 149
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 168,
+                                    "x": 79,
+                                    "y": 68
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 87,
+                                    "width": 138,
+                                    "x": 0,
+                                    "y": 237
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "left",
+                                    "width": 224,
+                                    "x": 0,
+                                    "y": 88
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 108,
+                                    "width": 257,
+                                    "x": 159,
+                                    "y": 133
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "left",
+                                    "width": 323,
+                                    "x": 0,
+                                    "y": 76
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 98,
+                                    "width": 257,
+                                    "x": 159,
+                                    "y": 242
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "left",
+                                    "width": 194,
+                                    "x": 159,
+                                    "y": 56
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 73,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 341
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "9 Fields"
+                    }
+                ]
+            },
+            "map": [
+                {
+                    "file": "map_toggle_option_1.png",
+                    "id": "toggleOption1",
+                    "x": 365,
+                    "y": 95
+                },
+                {
+                    "file": "map_toggle_option_2.png",
+                    "id": "toggleOption2",
+                    "x": 365,
+                    "y": 95
+                },
+                {
+                    "file": "map_toggle_option_3.png",
+                    "id": "toggleOption3",
+                    "x": 365,
+                    "y": 95
+                },
+                {
+                    "file": "map_zoom_in.png",
+                    "id": "zoomIn",
+                    "x": 2,
+                    "y": 197
+                },
+                {
+                    "file": "map_zoom_out.png",
+                    "id": "zoomOut",
+                    "x": 29,
+                    "y": 294
+                },
+                {
+                    "file": "map_pan_up.png",
+                    "id": "panUp",
+                    "x": 2,
+                    "y": 197
+                },
+                {
+                    "file": "map_pan_down.png",
+                    "id": "panDown",
+                    "x": 29,
+                    "y": 294
+                },
+                {
+                    "file": "map_pan_left.png",
+                    "id": "panLeft",
+                    "x": 2,
+                    "y": 197
+                },
+                {
+                    "file": "map_pan_right.png",
+                    "id": "panRight",
+                    "x": 29,
+                    "y": 294
+                },
+                {
+                    "file": "map_pointer.png",
+                    "id": "centerPointer",
+                    "x": 185,
+                    "y": 185
+                },
+                {
+                    "file": "navigation_pointer.png",
+                    "id": "navigationPointer",
+                    "x": 125,
+                    "y": 125
+                },
+                {
+                    "file": "navigation_pointer.png",
+                    "id": "northPointer",
+                    "x": 23,
+                    "y": 50
+                }
+            ],
+            "menu2": {
+                "customFooter": {
+                    "height": 70,
+                    "width": 178,
+                    "x": 120,
+                    "y": 21
+                },
+                "customTitle": {
+                    "height": 70,
+                    "width": 178,
+                    "x": 120,
+                    "y": 21
+                },
+                "doneButtons": {
+                    "bottom": true,
+                    "top": true
+                },
+                "focusArrowPoints": [
+                    {
+                        "x": 25,
+                        "y": 0
+                    },
+                    {
+                        "x": 29,
+                        "y": 0
+                    },
+                    {
+                        "x": 29,
+                        "y": 91
+                    },
+                    {
+                        "x": 25,
+                        "y": 91
+                    },
+                    {
+                        "x": 25,
+                        "y": 0
+                    }
+                ],
+                "footer": {
+                    "height": 131,
+                    "width": 416,
+                    "x": 0,
+                    "y": 0
+                },
+                "footerString": {
+                    "font": "tiny",
+                    "width": 295,
+                    "x": 208,
+                    "y": 62
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_check_off.png",
+                            "enabledIconFile": "menu2_check_on.png",
+                            "x": 0,
+                            "y": 40
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_check_off.png",
+                            "enabledIconFile": "menu2_check_on.png",
+                            "x": 282,
+                            "y": 40
+                        }
+                    ],
+                    "divider": 0,
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 80,
+                            "width": 60,
+                            "x": 0,
+                            "y": 29
+                        },
+                        "rightLocation": {
+                            "height": 80,
+                            "width": 60,
+                            "x": 282,
+                            "y": 29
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "height": 131,
+                        "labelFont": "small",
+                        "subLabelFont": "tiny",
+                        "width": 380,
+                        "xOffset": 36,
+                        "xOffsetItem": 36
+                    },
+                    "region": {
+                        "height": 131,
+                        "width": 343,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 343,
+                        "check": 200,
+                        "icon": 200,
+                        "toggle": 315
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "dtoggle_off.png",
+                            "enabledIconFile": "dtoggle_on.png",
+                            "x": 0,
+                            "y": 27
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "dtoggle_off.png",
+                            "enabledIconFile": "dtoggle_on.png",
+                            "x": 325,
+                            "y": 27
+                        }
+                    ]
+                },
+                "mode": "touchButton",
+                "title": {
+                    "height": 131,
+                    "width": 416,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "tiny",
+                    "width": 295,
+                    "x": 208,
+                    "y": 62
+                }
+            },
+            "notification": {
+                "autoDismissTime": 30000,
+                "body": {
+                    "font": "small",
+                    "height": 988,
+                    "lineCount": 50,
+                    "lineSpacing": 1,
+                    "width": 362,
+                    "x": 27,
+                    "y": 138
+                },
+                "height": 148,
+                "icon": {
+                    "height": 48,
+                    "previewHeight": 40,
+                    "previewWidth": 40,
+                    "previewX": 208,
+                    "previewY": 30,
+                    "width": 48,
+                    "x": 208,
+                    "y": 24
+                },
+                "mode": "preview",
+                "showIcon": true,
+                "showSubtitle": true,
+                "subtitle": {
+                    "font": "small",
+                    "height": 69,
+                    "lineCount": 10,
+                    "lineSpacing": 1,
+                    "width": 362,
+                    "x": 27,
+                    "y": 181
+                },
+                "title": {
+                    "font": "medium",
+                    "height": 87,
+                    "lineCount": 2,
+                    "lineSpacing": 1,
+                    "previewFont": "small",
+                    "previewLineCount": 1,
+                    "width": 332,
+                    "x": 42,
+                    "y": 86
+                },
+                "type": "partial",
+                "width": 416,
+                "x": 0,
+                "y": 0,
+                "yPadding": 41
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "colors": {
+                    "background": "FFFFFF",
+                    "outline": "FFFFFF",
+                    "selected": "000000"
+                },
+                "location": "left",
+                "timeout": 5000,
+                "type": "arc"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 229,
+                        "width": 113,
+                        "x": 20,
+                        "y": 139
+                    },
+                    {
+                        "height": 229,
+                        "width": 113,
+                        "x": 152,
+                        "y": 139
+                    },
+                    {
+                        "height": 229,
+                        "width": 113,
+                        "x": 284,
+                        "y": 139
+                    }
+                ],
+                "nextArrow": {
+                    "height": 8,
+                    "width": 16,
+                    "x": 200,
+                    "y": 160
+                },
+                "previousArrow": {
+                    "height": 8,
+                    "width": 16,
+                    "x": 200,
+                    "y": 365
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 125,
+                    "width": 416,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "toast": {
+                "autoDismissTime": 8000,
+                "height": 88,
+                "icon": {
+                    "height": 40,
+                    "width": 40,
+                    "x": 208,
+                    "y": 30
+                },
+                "text": {
+                    "firstLine": 0,
+                    "font": "small",
+                    "height": 138,
+                    "lineCount": 1,
+                    "shortenWithEllipsis": true,
+                    "staticJustification": 5,
+                    "width": 347,
+                    "x": 34,
+                    "y": 62
+                },
+                "type": "partial"
+            }
+        }
+    ],
+    "ppi": 325,
+    "redshiftSupport": true,
+    "screenProtectionSupport": true,
+    "sensorHistory": [
+        {
+            "interval": 60,
+            "size": 360,
+            "type": "heartrate"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "elevation"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "temperature"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "pressure"
+        },
+        {
+            "interval": 3600,
+            "size": 192,
+            "type": "pulseox"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxGyroRate": 100,
+        "maxMagRate": 50
+    },
+    "solarChargingSupport": false,
+    "watchdogCount": 240000,
+    "wifiExclusions": [
+        "normal"
+    ]
+}

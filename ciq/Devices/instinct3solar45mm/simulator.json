@@ -1,0 +1,1146 @@
+{
+    "appStorageCapacity": 10485760,
+    "complications": {
+        "time": {
+            "showAmPm": true
+        }
+    },
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GPS L5",
+                "GALILEO L1",
+                "GALILEO L5",
+                "GLONASS",
+                "BEIDOU L1",
+                "BEIDOU L5",
+                "SATIQ"
+            ],
+            "name": "All SKUs"
+        }
+    ],
+    "display": {
+        "behaviors": [],
+        "isTouch": false,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 176,
+            "width": 176,
+            "x": 101,
+            "y": 158
+        },
+        "shape": "semi-octagon"
+    },
+    "flashlightConfiguration": [
+        {
+            "colors": [
+                "FFFFFF",
+                "FF0000"
+            ],
+            "name": "All SKUs"
+        }
+    ],
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_15M",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_15M",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_18M",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_20M",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_23B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B388800_CDPG_ROBOTO_18M",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_twcn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_MED_CHN_15M",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_MED_CHN_15M",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_MED_CHN_18M",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_MED_CHN_20M",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_BOLD_CHN_23B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_SC_MED_CHN_18M",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_15M",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_15M",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_18M",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_20M",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_23B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B458400_NOTO_SANS_CJK_MED_JPN_18M",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD-94_KOR_19",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD-94_KOR_19",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD-94_KOR_20",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD-94_KOR_22",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD_KOR_25B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_NANUM_GOTHIC_BOLD-94_KOR_20",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_vie",
+            "fonts": [
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_15M",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_15M",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_18M",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_20M",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_23B",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B458400_ROBOTO_CONDENSED_VIET_18M",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "small"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "medium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_20",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_32",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_30",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_41",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B388800_0000_GARMIN_16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_65",
+                    "name": "simExtNumber1"
+                },
+                {
+                    "filename": "FNT_006B458400_0000_GARMIN_56",
+                    "name": "simExtNumber2"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "contentArea": {
+            "height": 61,
+            "width": 164,
+            "x": 9,
+            "y": 19
+        },
+        "liveUpdates": true
+    },
+    "image": "device.png",
+    "keys": [
+        {
+            "behavior": "onSelect",
+            "id": "enter",
+            "location": {
+                "height": 79,
+                "width": 42,
+                "x": 335,
+                "y": 144
+            }
+        },
+        {
+            "behavior": "previousPage",
+            "id": "up",
+            "location": {
+                "height": 68,
+                "width": 33,
+                "x": 2,
+                "y": 212
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 68,
+                "width": 33,
+                "x": 2,
+                "y": 212
+            }
+        },
+        {
+            "behavior": "nextPage",
+            "id": "down",
+            "location": {
+                "height": 68,
+                "width": 58,
+                "x": 11,
+                "y": 300
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 78,
+                "width": 45,
+                "x": 331,
+                "y": 268
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "area": {
+                    "height": 176,
+                    "width": 138,
+                    "x": 38,
+                    "y": 0
+                },
+                "borderDisplay": {
+                    "width": 2
+                },
+                "borderWidth": 2,
+                "colors": {
+                    "background": "FFFFFF",
+                    "selected": "000000",
+                    "text": "000000"
+                },
+                "entries": [
+                    {
+                        "alignment": "left",
+                        "height": 20,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 23
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 20,
+                        "selection": true,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 76
+                    },
+                    {
+                        "alignment": "left",
+                        "height": 20,
+                        "selection": false,
+                        "textPadding": 0,
+                        "x": 13,
+                        "y": 129
+                    }
+                ],
+                "font": "small",
+                "selectionDisplay": {
+                    "height": 48,
+                    "width": 5,
+                    "x": 5,
+                    "y": 65
+                },
+                "type": "partial"
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 176,
+                                    "x": 88,
+                                    "y": 148
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 53,
+                                    "y": 63
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 176,
+                                    "width": 176,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 98,
+                                    "x": 50,
+                                    "y": 63
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 61,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 72,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber2",
+                                    "justification": "center",
+                                    "width": 156,
+                                    "x": 88,
+                                    "y": 80
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 88,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 104,
+                                    "width": 176,
+                                    "x": 0,
+                                    "y": 72
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 95,
+                                    "x": 94,
+                                    "y": 57
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 64,
+                                    "y": 18
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 55,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 156,
+                                    "x": 88,
+                                    "y": 63
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 94,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 65,
+                                    "width": 176,
+                                    "x": 0,
+                                    "y": 56
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 87,
+                                    "x": 87,
+                                    "y": 51
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 88,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 54,
+                                    "width": 176,
+                                    "x": 0,
+                                    "y": 122
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields A"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 98,
+                                    "x": 50,
+                                    "y": 63
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 61,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 72,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 87,
+                                    "x": 43,
+                                    "y": 64
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 44,
+                                    "y": 23
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 104,
+                                    "width": 88,
+                                    "x": 0,
+                                    "y": 72
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "bottom"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 87,
+                                    "x": 43,
+                                    "y": 64
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 44,
+                                    "y": 23
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 104,
+                                    "width": 88,
+                                    "x": 88,
+                                    "y": 72
+                                },
+                                "obscurity": [
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields B"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 98,
+                                    "x": 50,
+                                    "y": 63
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 61,
+                                    "y": 24
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 72,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 87,
+                                    "x": 43,
+                                    "y": 59
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 44,
+                                    "y": 22
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 75,
+                                    "width": 88,
+                                    "x": 0,
+                                    "y": 72
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "bottom"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 87,
+                                    "x": 43,
+                                    "y": 59
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 75,
+                                    "width": 88,
+                                    "x": 88,
+                                    "y": 72
+                                },
+                                "obscurity": [
+                                    "right",
+                                    "bottom"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "glanceNumberFont",
+                                    "justification": "center",
+                                    "width": 122,
+                                    "x": 55,
+                                    "y": 19
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 27,
+                                    "width": 110,
+                                    "x": 33,
+                                    "y": 149
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "4 Fields"
+                    }
+                ]
+            },
+            "menu2": {
+                "customTitle": {
+                    "height": 58,
+                    "width": 176,
+                    "x": 6,
+                    "y": 1
+                },
+                "doneButtons": {
+                    "bottom": true,
+                    "top": true
+                },
+                "focusArrowPoints": [
+                    {
+                        "x": 4,
+                        "y": 2
+                    },
+                    {
+                        "x": 6,
+                        "y": 0
+                    },
+                    {
+                        "x": 6,
+                        "y": 56
+                    },
+                    {
+                        "x": 4,
+                        "y": 58
+                    },
+                    {
+                        "x": 4,
+                        "y": 2
+                    }
+                ],
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_check_off.png",
+                            "enabledIconFile": "menu2_check_on.png",
+                            "x": 5,
+                            "y": 19
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_check_off.png",
+                            "enabledIconFile": "menu2_check_on.png",
+                            "x": 138,
+                            "y": 19
+                        }
+                    ],
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 14,
+                            "width": 24,
+                            "x": 8,
+                            "y": 42
+                        },
+                        "rightLocation": {
+                            "height": 14,
+                            "width": 24,
+                            "x": 140,
+                            "y": 42
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "alignment": "left",
+                        "backgroundColor": "FFFFFF",
+                        "height": 60,
+                        "labelFont": "large",
+                        "labelLinePadding": 3,
+                        "shortenWithEllipsis": true,
+                        "showCustomItemSelector": false,
+                        "subLabelFont": "small",
+                        "sublabelLinePadding": 4,
+                        "textColor": "000000",
+                        "width": 176,
+                        "xOffsetItem": 10
+                    },
+                    "labelAlignments": {
+                        "basic": "left",
+                        "check": "sameAsIcon",
+                        "icon": "sameAsIcon",
+                        "toggle": "left"
+                    },
+                    "labelXOffsets": {
+                        "basicLeft": 3,
+                        "checkRight": -10,
+                        "iconRight": -10,
+                        "toggleLeft": 0
+                    },
+                    "region": {
+                        "height": 60,
+                        "width": 176,
+                        "x": 0,
+                        "y": 65
+                    },
+                    "stringWidths": {
+                        "basic": 170,
+                        "check": 135,
+                        "icon": 133,
+                        "toggle": 115
+                    },
+                    "subItem": {
+                        "height": 48,
+                        "labelFont": "small",
+                        "labelWidth": 170,
+                        "yOffset": 0
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_left_toggle_off.png",
+                            "enabledIconFile": "menu2_left_toggle_on.png",
+                            "x": 1,
+                            "y": 40
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_right_toggle_off.png",
+                            "enabledIconFile": "menu2_right_toggle_on.png",
+                            "x": 121,
+                            "y": 40
+                        }
+                    ]
+                },
+                "mode": "threeItem",
+                "title": {
+                    "backgroundColor": "000000",
+                    "height": 64,
+                    "textColor": "FFFFFF",
+                    "width": 176,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "alignment": "left",
+                    "font": "small",
+                    "width": 74,
+                    "width2": 100,
+                    "x": 70,
+                    "x2": 62,
+                    "y": 23,
+                    "y2": 45
+                }
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "backgroundWidth": 6,
+                "colors": {
+                    "background": "FFFFFF",
+                    "outline": "FFFFFF",
+                    "selected": "000000"
+                },
+                "location": "left",
+                "selectedWidth": 2,
+                "timeout": 5000,
+                "type": "flat"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 40,
+                        "width": 46,
+                        "x": 8,
+                        "y": 121
+                    },
+                    {
+                        "height": 40,
+                        "width": 46,
+                        "x": 64,
+                        "y": 121
+                    },
+                    {
+                        "height": 40,
+                        "width": 46,
+                        "x": 120,
+                        "y": 121
+                    }
+                ],
+                "nextArrow": {
+                    "height": 14,
+                    "width": 50,
+                    "x": 62,
+                    "y": 105
+                },
+                "previousArrow": {
+                    "height": 14,
+                    "width": 50,
+                    "x": 62,
+                    "y": 163
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 26,
+                    "width": 172,
+                    "x": 2,
+                    "y": 77
+                }
+            },
+            "toast": {
+                "autoDismissTime": 8000,
+                "colors": {
+                    "background": "000000",
+                    "subscreen": "FFFFFF",
+                    "text": "FFFFFF"
+                },
+                "height": 65,
+                "icon": {
+                    "height": 44,
+                    "width": 44,
+                    "x": 144,
+                    "y": 30
+                },
+                "text": {
+                    "firstLine": 0,
+                    "font": "small",
+                    "height": 20,
+                    "lineCount": 1,
+                    "shortenWithEllipsis": true,
+                    "staticJustification": 5,
+                    "width": 77,
+                    "x": 20,
+                    "y": 30
+                },
+                "type": "partial"
+            }
+        }
+    ],
+    "sensorHistory": [
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "elevation"
+        },
+        {
+            "interval": 60,
+            "size": 360,
+            "type": "heartrate"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "pressure"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "temperature"
+        },
+        {
+            "interval": 3600,
+            "size": 336,
+            "type": "pulseox"
+        },
+        {
+            "interval": 180,
+            "size": 960,
+            "type": "bodybattery"
+        },
+        {
+            "interval": 180,
+            "size": 60,
+            "type": "stress"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxGyroRate": 100,
+        "maxMagRate": 50
+    },
+    "solarChargingSupport": true,
+    "subscreen": {
+        "location": {
+            "height": 62,
+            "width": 62,
+            "x": 214,
+            "y": 158
+        }
+    },
+    "watchdogCount": 240000
+}

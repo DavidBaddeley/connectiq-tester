@@ -1,0 +1,942 @@
+{
+    "appStorageCapacity": 10485760,
+    "complications": {
+        "time": {
+            "showAmPm": false
+        }
+    },
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GALILEO L1",
+                "GLONASS",
+                "BEIDOU L1"
+            ],
+            "name": "World Wide"
+        }
+    ],
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "onBack",
+                "maxDistToEdge": 81,
+                "maxSwipeDuration": 600,
+                "minSwipeDeltaX": 78,
+                "minSwipeDeltaY": 78
+            },
+            {
+                "gesture": "swipeLeft"
+            },
+            {
+                "gesture": "swipeUp",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeDown",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 390,
+            "width": 390,
+            "x": 101,
+            "y": 178
+        },
+        "shape": "round"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_006B465600_TINY",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B465600_SMALL",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B465600_MEDIUM",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B465600_LARGE",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B465600_XLARGE",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B465600_SMALL",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B465600_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B465600_XSMALL",
+                    "name": "auxiliaryFont1"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_MEDIUM",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_twcn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_23",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_31",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_34",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_38",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_44",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_31",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_31",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B465600_NOTO_SANS_SC_BOLD_94_25",
+                    "name": "auxiliaryFont1"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_MEDIUM",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_23",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_31",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_34",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_40",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_46",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_31",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_31",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B465600_KOSUGI_REGULAR-94_25",
+                    "name": "auxiliaryFont1"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_MEDIUM",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_23",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_31",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_34",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_38",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_44",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_31",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_31",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B465600_NANUM_GOTHIC_BOLD_25",
+                    "name": "auxiliaryFont1"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_MEDIUM",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "small"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "medium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "auxiliaryFont1"
+                },
+                {
+                    "filename": "FNT_006B465600_NUMBER_MEDIUM",
+                    "name": "simExtNumber1"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "cacheUpdate": false,
+        "contentArea": {
+            "height": 141,
+            "width": 260,
+            "x": 120,
+            "y": 12
+        },
+        "iconArea": {
+            "height": 56,
+            "width": 56,
+            "x": 32,
+            "y": 46
+        },
+        "liveUpdates": true
+    },
+    "graphicsResourcePoolSize": 4194304,
+    "image": "device.png",
+    "keys": [
+        {
+            "behavior": "onSelect",
+            "id": "enter",
+            "location": {
+                "height": 88,
+                "width": 52,
+                "x": 505,
+                "y": 199
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 86,
+                "width": 54,
+                "x": 504,
+                "y": 470
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 86,
+                "width": 54,
+                "x": 504,
+                "y": 470
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "colors": {
+                    "selected": "555555"
+                },
+                "entries": [
+                    {
+                        "alignment": "left",
+                        "height": 128,
+                        "spacing": 2,
+                        "stringMaxWidth": 270,
+                        "textPadding": 2,
+                        "x": 51,
+                        "y": 82
+                    }
+                ],
+                "type": "fullscreen",
+                "wrapEntries": true
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 250
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 120
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 390,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 152
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 46
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 194,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 152
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 46
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 194,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 196
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 127
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 50
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 110
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 34
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 113,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 134
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 229,
+                                    "x": 114,
+                                    "y": 101
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 114,
+                                    "y": 38
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 141,
+                                    "width": 229,
+                                    "x": 80,
+                                    "y": 249
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 128
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 50
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 134,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 187,
+                                    "x": 93,
+                                    "y": 103
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 93,
+                                    "y": 38
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 109,
+                                    "width": 187,
+                                    "x": 0,
+                                    "y": 136
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 187,
+                                    "x": 93,
+                                    "y": 103
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 93,
+                                    "y": 38
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 109,
+                                    "width": 187,
+                                    "x": 203,
+                                    "y": 136
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 234,
+                                    "x": 117,
+                                    "y": 101
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 117,
+                                    "y": 38
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 143,
+                                    "width": 234,
+                                    "x": 78,
+                                    "y": 247
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields"
+                    }
+                ]
+            },
+            "menu2": {
+                "customTitle": {
+                    "height": 99,
+                    "width": 205,
+                    "x": 92,
+                    "y": 29
+                },
+                "doneButtons": {
+                    "bottom": true
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_checkbox_off.png",
+                            "enabledIconFile": "menu2_checkbox_on.png",
+                            "x": 53,
+                            "y": 45
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_checkbox_off.png",
+                            "enabledIconFile": "menu2_checkbox_on.png",
+                            "x": 297,
+                            "y": 45
+                        }
+                    ],
+                    "divider": 2,
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 128,
+                            "width": 65,
+                            "x": 53,
+                            "y": 0
+                        },
+                        "rightLocation": {
+                            "height": 128,
+                            "width": 65,
+                            "x": 272,
+                            "y": 0
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "backgroundColor": "000000",
+                        "height": 130,
+                        "labelFont": "medium",
+                        "subLabelFont": "tiny",
+                        "textColor": "F8F8F8",
+                        "width": 390,
+                        "xOffset": 53
+                    },
+                    "labelAlignments": {
+                        "basic": "left",
+                        "check": "sameAsIcon",
+                        "icon": "sameAsIcon",
+                        "toggle": "left"
+                    },
+                    "labelXOffsets": {
+                        "basicLeft": 53,
+                        "checkLeft": 86,
+                        "checkRight": 19,
+                        "iconLeft": 90,
+                        "iconRight": 15,
+                        "toggleLeft": 53,
+                        "toggleRihgt": -27
+                    },
+                    "region": {
+                        "height": 130,
+                        "width": 390,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 284,
+                        "check": 218,
+                        "icon": 210,
+                        "toggle": 245
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_toggle_off.png",
+                            "enabledIconFile": "menu2_toggle_on.png",
+                            "x": 53,
+                            "y": 27
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_toggle_off.png",
+                            "enabledIconFile": "menu2_toggle_on.png",
+                            "x": 324,
+                            "y": 27
+                        }
+                    ]
+                },
+                "mode": "scroll",
+                "title": {
+                    "backgroundImage": "menu2_header.png",
+                    "backgroundImageArea": {
+                        "height": 194,
+                        "width": 390
+                    },
+                    "height": 130,
+                    "width": 390,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "small",
+                    "lineCount": 1,
+                    "width": 292,
+                    "x": 195,
+                    "y": 82
+                }
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "backgroundWidth": 2,
+                "colors": {
+                    "background": "808080",
+                    "selected": "00AAF8"
+                },
+                "location": "left",
+                "outlineWidth": -1,
+                "selectedWidth": 6,
+                "timeout": 5000,
+                "type": "arc"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 208,
+                        "width": 193,
+                        "x": 98,
+                        "y": 131
+                    }
+                ],
+                "icons": [
+                    {
+                        "height": 26,
+                        "iconFile": "picker_accept.png",
+                        "id": "accept",
+                        "width": 35,
+                        "x": 291,
+                        "y": 222
+                    }
+                ],
+                "nextArrow": {
+                    "height": 15,
+                    "width": 29,
+                    "x": 180,
+                    "y": 116
+                },
+                "previousArrow": {
+                    "height": 15,
+                    "width": 29,
+                    "x": 180,
+                    "y": 339
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 64,
+                    "width": 247,
+                    "x": 71,
+                    "y": 44
+                }
+            },
+            "toast": {
+                "autoDismissTime": 30000,
+                "height": 240,
+                "icon": {
+                    "height": 40,
+                    "width": 40,
+                    "x": 195,
+                    "y": 60
+                },
+                "imagePath": "notification_banner.png",
+                "text": {
+                    "firstLine": 0,
+                    "font": "auxiliaryFont1",
+                    "height": 23,
+                    "lineCount": 1,
+                    "scroll": true,
+                    "scrollJustification": 6,
+                    "shortenWithEllipsis": false,
+                    "staticJustification": 5,
+                    "width": 310,
+                    "x": 41,
+                    "y": 95
+                },
+                "type": "background"
+            }
+        }
+    ],
+    "screenProtectionSupport": true,
+    "sensorHistory": [
+        {
+            "interval": 60,
+            "size": 2880,
+            "type": "heartrate"
+        },
+        {
+            "interval": 3600,
+            "size": 168,
+            "type": "pulseox"
+        },
+        {
+            "interval": 180,
+            "size": 480,
+            "type": "bodybattery"
+        },
+        {
+            "interval": 180,
+            "size": 480,
+            "type": "stress"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxMagRate": 50
+    },
+    "watchdogCount": 240000,
+    "wifiExclusions": [
+        "normal"
+    ]
+}

@@ -1,0 +1,1794 @@
+{
+    "appStorageCapacity": 10485760,
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "swipeLeft",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeUp"
+            },
+            {
+                "gesture": "swipeDown"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 265,
+            "width": 200,
+            "x": 68,
+            "y": 77
+        },
+        "shape": "rectangle"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_DEJAVU_SANS_9",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_DEJAVU_SANS_12",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_DEJAVU_SANS_14",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_DEJAVU_SANS_16",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_DEJAVU_SANS_26",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_24",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_28",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_36",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_40",
+                    "name": "numberThaiHot"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_chn",
+            "fonts": [
+                {
+                    "filename": "FNT_DFHEI_12",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_DFHEI_17",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_DFHEI_19",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_DFHEI_22",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_DFHEI_36",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_26",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_30",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_40",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_50",
+                    "name": "numberThaiHot"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "filename": "FNT_DFPHSGOTHIC_12",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_DFPHSGOTHIC_17",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_DFPHSGOTHIC_19",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_DFPHSGOTHIC_22",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_DFPHSGOTHIC_36",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_26",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_30",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_40",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_50",
+                    "name": "numberThaiHot"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "filename": "FNT_DFKGOTHIC_12",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_DFKGOTHIC_17",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_DFKGOTHIC_19",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_DFKGOTHIC_22",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_DFKGOTHIC_36",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_26",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_30",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_40",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_DEJAVU_FITNESS_50",
+                    "name": "numberThaiHot"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "small"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "medium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_PHELANT_20B",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_PHELANT_32B",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_PHELANT_38B",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_PHELANT_62B",
+                    "name": "numberThaiHot"
+                }
+            ]
+        }
+    ],
+    "image": "edge_820.png",
+    "keys": [
+        {
+            "id": "lap",
+            "location": {
+                "height": 26,
+                "width": 77,
+                "x": 56,
+                "y": 396
+            }
+        },
+        {
+            "id": "start",
+            "location": {
+                "height": 26,
+                "width": 75,
+                "x": 203,
+                "y": 396
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "location": {
+                "height": 34,
+                "width": 34,
+                "x": 231,
+                "y": 303
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 34,
+                "width": 34,
+                "x": 71,
+                "y": 303
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 152
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 265,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 131,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 134
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 74
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 88,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 74
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 86,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 90
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 74
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 87,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 178
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "3 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 62
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 66,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 61
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 64,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 68
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 61
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 64,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 134
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 62
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 20
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 65,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 200
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "4 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "5 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "6 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "7 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "8 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 200,
+                                    "x": 100,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 100,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 200,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "9 Fields"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 50
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 19
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 53,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 55
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 108
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 161
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 50,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 50,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 0,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 99,
+                                    "x": 49,
+                                    "y": 48
+                                },
+                                "label": {
+                                    "font": "small",
+                                    "justification": "center",
+                                    "x": 49,
+                                    "y": 17
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 51,
+                                    "width": 99,
+                                    "x": 101,
+                                    "y": 214
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "10 Fields"
+                    }
+                ],
+                "isTouchable": true
+            },
+            "map": [
+                {
+                    "file": "edge_map_zoom_in.png",
+                    "id": "zoomIn",
+                    "x": 146,
+                    "y": 27
+                },
+                {
+                    "file": "edge_map_zoom_out.png",
+                    "id": "zoomOut",
+                    "x": 18,
+                    "y": 27
+                },
+                {
+                    "file": "navigation_pointer.png",
+                    "id": "navigationPointer",
+                    "x": 85,
+                    "y": 118
+                }
+            ],
+            "menu2": {
+                "customTitle": {
+                    "height": 50,
+                    "width": 200,
+                    "x": 0,
+                    "y": 0
+                },
+                "doneButtons": {
+                    "bottom": true
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_check_off_stark.png",
+                            "enabledIconFile": "menu2_check_on_stark.png",
+                            "x": 10,
+                            "y": 6
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_check_off_stark.png",
+                            "enabledIconFile": "menu2_check_on_stark.png",
+                            "x": 160,
+                            "y": 6
+                        }
+                    ],
+                    "divider": 1,
+                    "icons": {
+                        "check": "right",
+                        "icon": "right",
+                        "leftLocation": {
+                            "height": 35,
+                            "width": 35,
+                            "x": 10,
+                            "y": 6
+                        },
+                        "rightLocation": {
+                            "height": 35,
+                            "width": 35,
+                            "x": 155,
+                            "y": 6
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "height": 49,
+                        "labelFont": "medium",
+                        "labelVerticalCentered": false,
+                        "subLabelFont": "tiny",
+                        "width": 200,
+                        "wrapLabel": false,
+                        "xOffset": 10
+                    },
+                    "labelXOffsets": {
+                        "basicLeft": 10,
+                        "checkLeft": 35,
+                        "iconLeft": 35,
+                        "toggleLeft": 10
+                    },
+                    "region": {
+                        "height": 49,
+                        "width": 200,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 180,
+                        "check": 135,
+                        "icon": 135,
+                        "toggle": 135
+                    },
+                    "subItem": {
+                        "height": 17,
+                        "labelFont": "tiny",
+                        "labelWidth": 200,
+                        "yOffset": 0
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_toggle_off_stark.png",
+                            "enabledIconFile": "menu2_toggle_on_stark.png",
+                            "x": 10,
+                            "y": 13
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_toggle_off_stark.png",
+                            "enabledIconFile": "menu2_toggle_on_stark.png",
+                            "x": 155,
+                            "y": 13
+                        }
+                    ]
+                },
+                "mode": "scroll",
+                "title": {
+                    "height": 52,
+                    "width": 200,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "medium",
+                    "width": 190,
+                    "x": 100,
+                    "y": 30
+                }
+            },
+            "orientation": "portrait",
+            "picker": {
+                "entries": [
+                    {
+                        "height": 70,
+                        "width": 47,
+                        "x": 25,
+                        "y": 97
+                    },
+                    {
+                        "height": 70,
+                        "width": 47,
+                        "x": 76,
+                        "y": 97
+                    },
+                    {
+                        "height": 70,
+                        "width": 47,
+                        "x": 127,
+                        "y": 97
+                    }
+                ],
+                "nextArrow": {
+                    "height": 16,
+                    "width": 50,
+                    "x": 75,
+                    "y": 78
+                },
+                "previousArrow": {
+                    "height": 16,
+                    "width": 50,
+                    "x": 75,
+                    "y": 171
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 19,
+                    "width": 200,
+                    "x": 0,
+                    "y": 20
+                }
+            }
+        }
+    ],
+    "watchdogCount": 160000
+}

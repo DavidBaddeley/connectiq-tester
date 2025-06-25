@@ -1,0 +1,167 @@
+{
+    "alphaBlendingSupport": true,
+    "appTypes": [
+        {
+            "memoryLimit": 262144,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 262144,
+            "type": "widget"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "deviceFamily": "rectangle-200x265",
+    "deviceGroup": "Edge",
+    "deviceId": "edge_520",
+    "displayName": "Edge® 520",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-02083-00",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-01368-00/v/cf-sm.jpg",
+    "launcherIcon": {
+        "height": 35,
+        "width": 35
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "2.4.1",
+            "firmwareVersion": 1240,
+            "languages": [
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B2067-00"
+        },
+        {
+            "connectIQVersion": "2.4.4",
+            "firmwareVersion": 1260,
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "zht",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "kor",
+                    "fontSet": "apac_kor"
+                },
+                {
+                    "code": "tha",
+                    "fontSet": "apac_tha"
+                }
+            ],
+            "number": "006-B2260-00"
+        },
+        {
+            "connectIQVersion": "2.4.4",
+            "firmwareVersion": 1260,
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "jpn",
+                    "fontSet": "apac_jpn"
+                }
+            ],
+            "number": "006-B2261-00"
+        }
+    ],
+    "resolution": {
+        "height": 265,
+        "width": 200
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B2067-00"
+}

@@ -1,0 +1,241 @@
+{
+    "alphaBlendingSupport": true,
+    "appTypes": [
+        {
+            "memoryLimit": 2359296,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 1048576,
+            "type": "widget"
+        },
+        {
+            "memoryLimit": 131072,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "deviceFamily": "rectangle-480x800",
+    "deviceGroup": "Outdoor Handhelds",
+    "deviceId": "montana7xx",
+    "deviceVersion": "2dd3338a1a46d0b401af33b1500c6336f5a85826",
+    "displayName": "Montana® 7 Series",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-02133-00",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-02133-00/g/cf-sm-eed10c23-6410-4fb4-bbe7-d235d8c1de78.jpg",
+    "launcherIcon": {
+        "height": 60,
+        "width": 60
+    },
+    "menuBar": {
+        "landscapeImage": "montana7xx_v_menubar.png",
+        "location": {
+            "height": 65,
+            "width": 480,
+            "x": 101,
+            "y": 756
+        },
+        "portraitImage": "montana7xx_h_menubar.png"
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.2.5",
+            "languages": [
+                {
+                    "code": "ara",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "bul",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "tur",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B3459-00"
+        },
+        {
+            "connectIQVersion": "3.2.1",
+            "languages": [
+                {
+                    "code": "ara",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "bul",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "tur",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B4415-00"
+        }
+    ],
+    "resolution": {
+        "height": 800,
+        "width": 480
+    },
+    "screenRotationSupport": true,
+    "worldWidePartNumber": "006-B3459-00"
+}

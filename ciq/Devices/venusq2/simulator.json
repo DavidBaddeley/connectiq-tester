@@ -1,0 +1,1047 @@
+{
+    "appStorageCapacity": 10485760,
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GPS L5",
+                "GALILEO L1",
+                "GALILEO L5",
+                "GLONASS",
+                "BEIDOU L1",
+                "BEIDOU L5"
+            ],
+            "name": "All SKUs"
+        }
+    ],
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "onBack"
+            },
+            {
+                "gesture": "swipeLeft"
+            },
+            {
+                "gesture": "swipeUp",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeDown",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 360,
+            "width": 320,
+            "x": 123,
+            "y": 258
+        },
+        "shape": "rectangle"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_XSMALL",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_MEDIUM",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_LARGE",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_XLARGE",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_XSMALL",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_MEDIUM",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_LARGE",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_XLARGE",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_XSMALL",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_twcn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_34",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_37",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_42",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_50",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_57",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_34",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_37",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_42",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_50",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_57",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_37",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B411500_NOTO_SANS_SC_MEDIUM-94_34",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_34",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_37",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_42",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_50",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_58",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_34",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_37",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_42",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_50",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_58",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_37",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B411500_KOSUGI_REGULAR-94_34",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_34",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_37",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_42",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_50",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_57",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_34",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_37",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_42",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_50",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_57",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_37",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "FNT_006B411500_NANUM_GOTHIC_BOLD-94_34",
+                    "name": "simExtNumber1"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "small"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "medium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "bitstreamVeraSans 21",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "bitstreamVeraSans 27",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B411500_YANTRAMANAV_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B411500_ROBOTO_CONDENSED_SMALL",
+                    "name": "glanceNumberFont"
+                },
+                {
+                    "filename": "bitstreamVeraSans 16",
+                    "name": "simExtNumber1"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "cacheUpdate": false,
+        "contentArea": {
+            "height": 114,
+            "width": 254,
+            "x": 66,
+            "y": 8
+        },
+        "iconArea": {
+            "height": 40,
+            "width": 40,
+            "x": 0,
+            "y": 45
+        },
+        "liveUpdates": true
+    },
+    "graphicsResourcePoolSize": 2097152,
+    "image": "venusq2.png",
+    "keys": [
+        {
+            "id": "enter",
+            "location": {
+                "height": 128,
+                "width": 44,
+                "x": 509,
+                "y": 273
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 128,
+                "width": 44,
+                "x": 509,
+                "y": 273
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 128,
+                "width": 44,
+                "x": 509,
+                "y": 477
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "entries": [
+                    {
+                        "alignment": "center",
+                        "height": 80,
+                        "spacing": 10,
+                        "textPadding": 2,
+                        "x": 10,
+                        "y": 10
+                    }
+                ],
+                "type": "fullscreen"
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 219
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 107
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 360,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 156
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 54
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 313,
+                                    "x": 7,
+                                    "y": 30
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 156
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 54
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 132,
+                                    "width": 313,
+                                    "x": 7,
+                                    "y": 211
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 17
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 132
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 96
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 248
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "3 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 98
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 41
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 17
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 159,
+                                    "x": 80,
+                                    "y": 98
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 80,
+                                    "y": 41
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 157,
+                                    "x": 0,
+                                    "y": 139
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 159,
+                                    "x": 80,
+                                    "y": 98
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 80,
+                                    "y": 41
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 160,
+                                    "x": 160,
+                                    "y": 139
+                                },
+                                "obscurity": []
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 320,
+                                    "x": 160,
+                                    "y": 98
+                                },
+                                "label": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "x": 160,
+                                    "y": 41
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 97,
+                                    "width": 320,
+                                    "x": 0,
+                                    "y": 256
+                                },
+                                "obscurity": []
+                            }
+                        ],
+                        "name": "4 Fields"
+                    }
+                ]
+            },
+            "menu2": {
+                "customTitle": {
+                    "height": 53,
+                    "width": 320,
+                    "x": 0,
+                    "y": 15
+                },
+                "doneButtons": {
+                    "bottom": true
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_checkbox_off_venusq2.png",
+                            "enabledIconFile": "menu2_checkbox_on_venusq2.png",
+                            "x": 10,
+                            "y": 29
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_checkbox_off_venusq2.png",
+                            "enabledIconFile": "menu2_checkbox_on_venusq2.png",
+                            "x": 270,
+                            "y": 29
+                        }
+                    ],
+                    "divider": 2,
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 96,
+                            "width": 53,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rightLocation": {
+                            "height": 96,
+                            "width": 53,
+                            "x": 267,
+                            "y": 0
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "backgroundColor": "000000",
+                        "enabledItemSublabelColor": "00FF00",
+                        "height": 98,
+                        "labelFont": "small",
+                        "labelVerticalCentered": false,
+                        "subLabelFont": "simExtNumber1",
+                        "textColor": "FFFFFF",
+                        "width": 320,
+                        "wrapLabel": false
+                    },
+                    "labelAlignments": {
+                        "basic": "center",
+                        "check": "sameAsIcon",
+                        "icon": "sameAsIcon",
+                        "toggle": "center"
+                    },
+                    "labelXOffsets": {
+                        "checkLeft": 30,
+                        "checkRight": -25,
+                        "iconLeft": 35,
+                        "iconRight": -35
+                    },
+                    "region": {
+                        "height": 98,
+                        "width": 320,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 320,
+                        "check": 270,
+                        "icon": 267,
+                        "toggle": 240
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_toggle_off_venusq2.png",
+                            "enabledIconFile": "menu2_toggle_on_venusq2.png",
+                            "x": 10,
+                            "y": 12
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_toggle_off_venusq2.png",
+                            "enabledIconFile": "menu2_toggle_on_venusq2.png",
+                            "x": 280,
+                            "y": 12
+                        }
+                    ]
+                },
+                "mode": "scroll",
+                "title": {
+                    "backgroundColor": "000000",
+                    "height": 68,
+                    "textColor": "FFFFFF",
+                    "width": 320,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "small",
+                    "lineCount": 1,
+                    "width": 320,
+                    "x": 160,
+                    "y": 34
+                }
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "backgroundWidth": 2,
+                "colors": {
+                    "background": "C9C7CA",
+                    "outline": "C9C7CA",
+                    "selected": "FFFFFF"
+                },
+                "location": "left",
+                "selectedWidth": 6,
+                "timeout": 5000,
+                "type": "flat"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 26,
+                        "width": 35,
+                        "x": 115,
+                        "y": 204
+                    },
+                    {
+                        "height": 190,
+                        "width": 30,
+                        "x": 145,
+                        "y": 122
+                    },
+                    {
+                        "height": 26,
+                        "width": 35,
+                        "x": 175,
+                        "y": 204
+                    }
+                ],
+                "nextArrow": {
+                    "height": 15,
+                    "width": 29,
+                    "x": 145,
+                    "y": 107
+                },
+                "previousArrow": {
+                    "height": 15,
+                    "width": 29,
+                    "x": 145,
+                    "y": 312
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 59,
+                    "width": 214,
+                    "x": 53,
+                    "y": 41
+                }
+            },
+            "toast": {
+                "autoDismissTime": 5000,
+                "height": 94,
+                "icon": {
+                    "height": 34,
+                    "width": 34,
+                    "x": 160,
+                    "y": 33
+                },
+                "imagePath": "notification_banner.png",
+                "text": {
+                    "firstLine": 0,
+                    "font": "xtiny",
+                    "height": 86,
+                    "lineCount": 1,
+                    "scroll": true,
+                    "scrollJustification": 6,
+                    "shortenWithEllipsis": false,
+                    "staticJustification": 5,
+                    "width": 320,
+                    "x": 0,
+                    "y": 73
+                },
+                "type": "background"
+            }
+        }
+    ],
+    "screenProtectionSupport": true,
+    "sensorHistory": [
+        {
+            "interval": 60,
+            "size": 2880,
+            "type": "heartrate"
+        },
+        {
+            "interval": 120,
+            "size": 360,
+            "type": "temperature"
+        },
+        {
+            "interval": 3600,
+            "size": 168,
+            "type": "pulseox"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxMagRate": 50
+    },
+    "watchdogCount": 240000,
+    "wifiExclusions": [
+        "normal"
+    ]
+}

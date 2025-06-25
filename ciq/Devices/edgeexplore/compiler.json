@@ -1,0 +1,134 @@
+{
+    "alphaBlendingSupport": true,
+    "appTypes": [
+        {
+            "memoryLimit": 1048576,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 1048576,
+            "type": "widget"
+        },
+        {
+            "memoryLimit": 131072,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "deviceFamily": "rectangle-240x400",
+    "deviceGroup": "Edge",
+    "deviceId": "edgeexplore",
+    "displayName": "Edge® Explore",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-02029-00",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-02029-00/g/cf-sm-989c05c5-db39-4699-9692-440101e52cce.jpg",
+    "launcherIcon": {
+        "height": 36,
+        "width": 36
+    },
+    "menuBar": {
+        "location": {
+            "height": 42,
+            "width": 240,
+            "x": 87,
+            "y": 462
+        },
+        "portraitImage": "edgeexplore_h_menubar.png"
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.1.3",
+            "firmwareVersion": 510,
+            "languages": [
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B3011-00"
+        }
+    ],
+    "resolution": {
+        "height": 400,
+        "width": 240
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B3011-00"
+}

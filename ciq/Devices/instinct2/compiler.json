@@ -1,0 +1,222 @@
+{
+    "alphaBlendingSupport": false,
+    "antiAliasedFontSupport": false,
+    "appTypes": [
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "glance"
+        },
+        {
+            "memoryLimit": 98304,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 65536,
+            "type": "watchFace"
+        },
+        {
+            "memoryLimit": 65536,
+            "type": "widget"
+        }
+    ],
+    "bitsPerPixel": 1,
+    "deviceFamily": "semioctagon-176x176",
+    "deviceGroup": "Watches/Wearables",
+    "deviceId": "instinct2",
+    "deviceVersion": "cb6f0b4fd292b4751f8713977c1b9f4f85af5b4e",
+    "displayName": "Instinct® 2 / Solar / Dual Power / dēzl Edition",
+    "displayType": "mip",
+    "hardwarePartNumber": "010-02626-10",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-02626-10/v/cf-sm-fd19486f-e976-45df-bb9d-a3c6dea45eb9.jpg",
+    "launcherIcon": {
+        "height": 62,
+        "width": 62
+    },
+    "orientation": 0,
+    "palette": {
+        "colors": [
+            "000000",
+            "FFFFFF",
+            "TRANSPARENT",
+            "TRANSPARENT"
+        ],
+        "isResourcePalette": true
+    },
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.4.2",
+            "firmwareVersion": 1223,
+            "languages": [
+                {
+                    "code": "ara",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "bul",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "est",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "lav",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "lit",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ron",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "tur",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ukr",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B3888-00"
+        },
+        {
+            "connectIQVersion": "3.2.7",
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ind",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zsm",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "zht",
+                    "fontSet": "apac_twn"
+                },
+                {
+                    "code": "jpn",
+                    "fontSet": "apac_jpn"
+                },
+                {
+                    "code": "kor",
+                    "fontSet": "apac_kor"
+                },
+                {
+                    "code": "tha",
+                    "fontSet": "apac_tha"
+                },
+                {
+                    "code": "vie",
+                    "fontSet": "apac_vie"
+                }
+            ],
+            "number": "006-B4071-00"
+        }
+    ],
+    "resolution": {
+        "height": 176,
+        "width": 176
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B3888-00"
+}

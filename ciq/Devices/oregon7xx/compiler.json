@@ -1,0 +1,200 @@
+{
+    "appTypes": [
+        {
+            "memoryLimit": 2359296,
+            "type": "watchApp"
+        },
+        {
+            "memoryLimit": 1048576,
+            "type": "widget"
+        },
+        {
+            "memoryLimit": 131072,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "deviceFamily": "rectangle-240x400",
+    "deviceGroup": "Outdoor Handhelds",
+    "deviceId": "oregon7xx",
+    "displayName": "Oregon® 7 Series",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-01672-00",
+    "imageUrl": "https://static.garmincdn.com/en/products/010-01672-20/g/cf-sm.jpg",
+    "launcherIcon": {
+        "height": 54,
+        "width": 54
+    },
+    "menuBar": {
+        "landscapeImage": "edge1000_v_menubar.png",
+        "location": {
+            "height": 40,
+            "width": 240,
+            "x": 143,
+            "y": 520
+        },
+        "portraitImage": "edge1000_h_menubar.png"
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "3.0.8",
+            "firmwareVersion": 440,
+            "languages": [
+                {
+                    "code": "ara",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "bul",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "tur",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B2512-00"
+        },
+        {
+            "connectIQVersion": "2.2.3",
+            "firmwareVersion": 340,
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "zht",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "jpn",
+                    "fontSet": "apac_jpn"
+                },
+                {
+                    "code": "kor",
+                    "fontSet": "apac_kor"
+                },
+                {
+                    "code": "tha",
+                    "fontSet": "apac_tha"
+                },
+                {
+                    "code": "ind",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zsm",
+                    "fontSet": "ww"
+                }
+            ],
+            "number": "006-B2681-00"
+        },
+        {
+            "connectIQVersion": "2.2.3",
+            "firmwareVersion": 340,
+            "languages": [
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                }
+            ],
+            "number": "006-B2692-00"
+        }
+    ],
+    "resolution": {
+        "height": 400,
+        "width": 240
+    },
+    "screenRotationSupport": true,
+    "worldWidePartNumber": "006-B2512-00"
+}

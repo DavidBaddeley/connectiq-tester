@@ -1,0 +1,786 @@
+{
+    "appStorageCapacity": 10485760,
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GALILEO L1",
+                "GLONASS"
+            ],
+            "name": "World Wide"
+        },
+        {
+            "configuration": [
+                "GPS L1",
+                "GLONASS",
+                "BEIDOU L1"
+            ],
+            "name": "APAC"
+        }
+    ],
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "onBack"
+            },
+            {
+                "gesture": "swipeLeft"
+            },
+            {
+                "gesture": "swipeUp",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeDown",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 416,
+            "width": 416,
+            "x": 112,
+            "y": 241
+        },
+        "shape": "round"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "FNT_006B370300_TINY",
+                    "name": "xtiny"
+                },
+                {
+                    "filename": "FNT_006B370300_SMALL",
+                    "name": "tiny"
+                },
+                {
+                    "filename": "FNT_006B370300_MEDIUM",
+                    "name": "small"
+                },
+                {
+                    "filename": "FNT_006B370300_LARGE",
+                    "name": "medium"
+                },
+                {
+                    "filename": "FNT_006B370300_XLARGE",
+                    "name": "large"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_XSMALL",
+                    "name": "numberMild"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_SMALL",
+                    "name": "numberMedium"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_LARGE",
+                    "name": "numberHot"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_XLARGE",
+                    "name": "numberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B370300_TINY",
+                    "name": "systemXtiny"
+                },
+                {
+                    "filename": "FNT_006B370300_SMALL",
+                    "name": "systemTiny"
+                },
+                {
+                    "filename": "FNT_006B370300_MEDIUM",
+                    "name": "systemSmall"
+                },
+                {
+                    "filename": "FNT_006B370300_LARGE",
+                    "name": "systemMedium"
+                },
+                {
+                    "filename": "FNT_006B370300_XLARGE",
+                    "name": "systemLarge"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_XSMALL",
+                    "name": "systemNumberMild"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_SMALL",
+                    "name": "systemNumberMedium"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_LARGE",
+                    "name": "systemNumberHot"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_XLARGE",
+                    "name": "systemNumberThaiHot"
+                },
+                {
+                    "filename": "FNT_006B370300_SMALL",
+                    "name": "glanceFont"
+                },
+                {
+                    "filename": "FNT_006B370300_NUMBER_XTINY",
+                    "name": "glanceNumberFont"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "cacheUpdate": false,
+        "contentArea": {
+            "height": 133,
+            "width": 288,
+            "x": 128,
+            "y": 8
+        },
+        "iconArea": {
+            "height": 56,
+            "width": 56,
+            "x": 36,
+            "y": 46
+        },
+        "liveUpdates": true,
+        "themes": {
+            "area": {
+                "height": 142,
+                "width": 416,
+                "x": 0,
+                "y": 4
+            },
+            "themes": [
+                {
+                    "filename": "dglance_white.png",
+                    "name": "default"
+                },
+                {
+                    "filename": "dglance_blue.png",
+                    "name": "blue"
+                },
+                {
+                    "filename": "dglance_gold.png",
+                    "name": "gold"
+                },
+                {
+                    "filename": "dglance_green.png",
+                    "name": "green"
+                },
+                {
+                    "filename": "dglance_light_blue.png",
+                    "name": "light_blue"
+                },
+                {
+                    "filename": "dglance_purple.png",
+                    "name": "purple"
+                },
+                {
+                    "filename": "dglance_red.png",
+                    "name": "red"
+                },
+                {
+                    "filename": "dglance_white.png",
+                    "name": "white"
+                },
+                {
+                    "filename": "dglance_amazon.png",
+                    "name": "amazon"
+                },
+                {
+                    "filename": "dglance_dezzer.png",
+                    "name": "deezer"
+                },
+                {
+                    "filename": "dglance_spotify.png",
+                    "name": "spotify"
+                }
+            ]
+        }
+    },
+    "graphicsResourcePoolSize": 2097152,
+    "image": "d2airx10.png",
+    "keys": [
+        {
+            "id": "enter",
+            "location": {
+                "height": 89,
+                "width": 61,
+                "x": 524,
+                "y": 257
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 82,
+                "width": 54,
+                "x": 524,
+                "y": 557
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 82,
+                "width": 54,
+                "x": 524,
+                "y": 557
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "entries": [
+                    {
+                        "alignment": "center",
+                        "height": 70,
+                        "spacing": 10,
+                        "textPadding": 2,
+                        "x": 10,
+                        "y": 10
+                    }
+                ],
+                "type": "fullscreen"
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 255
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 133
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 416,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 150
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 52
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 155
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 54
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 207,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 209
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 127
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 137,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 112
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 29
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 137,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 139
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 111
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 138,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 278
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 127
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 137,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 197,
+                                    "x": 104,
+                                    "y": 112
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 104,
+                                    "y": 29
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 137,
+                                    "width": 207,
+                                    "x": 0,
+                                    "y": 139
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 197,
+                                    "x": 104,
+                                    "y": 112
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 104,
+                                    "y": 29
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 137,
+                                    "width": 207,
+                                    "x": 209,
+                                    "y": 139
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 406,
+                                    "x": 208,
+                                    "y": 111
+                                },
+                                "label": {
+                                    "font": "tiny",
+                                    "justification": "center",
+                                    "x": 208,
+                                    "y": 40
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 138,
+                                    "width": 416,
+                                    "x": 0,
+                                    "y": 278
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields"
+                    }
+                ]
+            },
+            "menu2": {
+                "customTitle": {
+                    "height": 70,
+                    "width": 178,
+                    "x": 120,
+                    "y": 21
+                },
+                "doneButtons": {
+                    "bottom": true
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_check_off_venu2.png",
+                            "enabledIconFile": "menu2_check_on_venu2.png",
+                            "x": 28,
+                            "y": 34
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_check_off_venu2.png",
+                            "enabledIconFile": "menu2_check_on_venu2.png",
+                            "x": 350,
+                            "y": 34
+                        }
+                    ],
+                    "divider": 2,
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 103,
+                            "width": 69,
+                            "x": 14,
+                            "y": 0
+                        },
+                        "rightLocation": {
+                            "height": 103,
+                            "width": 69,
+                            "x": 335,
+                            "y": 0
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "height": 104,
+                        "labelFont": "small",
+                        "subLabelFont": "xtiny",
+                        "width": 416
+                    },
+                    "labelXOffsets": {
+                        "checkLeft": 35,
+                        "checkRight": -5,
+                        "iconLeft": 48,
+                        "iconRight": -20
+                    },
+                    "region": {
+                        "height": 103,
+                        "width": 416,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 386,
+                        "check": 312,
+                        "icon": 312,
+                        "toggle": 312
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "menu2_toggle_off_venu2.png",
+                            "enabledIconFile": "menu2_toggle_on_venu2.png",
+                            "x": 28,
+                            "y": 6
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "menu2_toggle_off_venu2.png",
+                            "enabledIconFile": "menu2_toggle_on_venu2.png",
+                            "x": 345,
+                            "y": 6
+                        }
+                    ]
+                },
+                "mode": "scroll",
+                "title": {
+                    "height": 90,
+                    "width": 416,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "tiny",
+                    "width": 295,
+                    "x": 208,
+                    "y": 62
+                }
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "backgroundWidth": 2,
+                "colors": {
+                    "background": "808080",
+                    "selected": "2AAAFF"
+                },
+                "location": "left",
+                "outlineWidth": -1,
+                "selectedWidth": 6,
+                "timeout": 5000,
+                "type": "arc"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 224,
+                        "width": 92,
+                        "x": 6,
+                        "y": 139
+                    },
+                    {
+                        "height": 224,
+                        "width": 207,
+                        "x": 104,
+                        "y": 139
+                    },
+                    {
+                        "height": 224,
+                        "width": 92,
+                        "x": 317,
+                        "y": 139
+                    }
+                ],
+                "nextArrow": {
+                    "display_size": {
+                        "height": 27,
+                        "width": 33
+                    },
+                    "height": 65,
+                    "width": 95,
+                    "x": 160,
+                    "y": 99
+                },
+                "previousArrow": {
+                    "display_size": {
+                        "height": 27,
+                        "width": 33
+                    },
+                    "height": 65,
+                    "width": 95,
+                    "x": 160,
+                    "y": 338
+                },
+                "showConfirm": true,
+                "title": {
+                    "height": 71,
+                    "width": 261,
+                    "x": 78,
+                    "y": 46
+                }
+            },
+            "toast": {
+                "autoDismissTime": 30000,
+                "height": 171,
+                "icon": {
+                    "height": 56,
+                    "width": 56,
+                    "x": 208,
+                    "y": 38
+                },
+                "imagePath": "notification_banner.png",
+                "text": {
+                    "firstLine": 0,
+                    "font": "tiny",
+                    "height": 86,
+                    "lineCount": 1,
+                    "scroll": true,
+                    "scrollJustification": 6,
+                    "shortenWithEllipsis": false,
+                    "staticJustification": 5,
+                    "width": 313,
+                    "x": 51,
+                    "y": 96
+                },
+                "type": "background"
+            }
+        }
+    ],
+    "screenProtectionSupport": true,
+    "sensorHistory": [
+        {
+            "interval": 60,
+            "size": 2880,
+            "type": "heartrate"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "elevation"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "temperature"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "pressure"
+        },
+        {
+            "interval": 3600,
+            "size": 168,
+            "type": "pulseox"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxGyroRate": 100,
+        "maxMagRate": 50
+    },
+    "watchdogCount": 240000,
+    "wifiExclusions": [
+        "normal"
+    ]
+}

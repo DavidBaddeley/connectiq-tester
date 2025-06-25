@@ -1,0 +1,192 @@
+{
+    "alphaBlendingSupport": true,
+    "appTypes": [
+        {
+            "memoryLimit": 32768,
+            "type": "background"
+        },
+        {
+            "memoryLimit": 131072,
+            "type": "datafield"
+        },
+        {
+            "memoryLimit": 65536,
+            "type": "glance"
+        },
+        {
+            "memoryLimit": 1048576,
+            "type": "watchApp"
+        }
+    ],
+    "bitsPerPixel": 16,
+    "codePageSize": 4096,
+    "controlBarSupport": true,
+    "deviceFamily": "rectangle-240x400",
+    "deviceGroup": "Edge",
+    "deviceId": "edgeexplore2",
+    "deviceVersion": "a4afe6a6199e3c5cc2d14921ee41b058ac75e455",
+    "displayName": "Edge® Explore 2",
+    "displayType": "lcd",
+    "hardwarePartNumber": "010-02703-00",
+    "imageFormats": [
+        "png",
+        "jpg"
+    ],
+    "imageUrl": "https://res.garmin.com/en/products/010-02703-00/g/cf-sm.jpg",
+    "launcherIcon": {
+        "height": 36,
+        "width": 36
+    },
+    "orientation": 0,
+    "partNumbers": [
+        {
+            "connectIQVersion": "5.1.0",
+            "firmwareVersion": 2618,
+            "languages": [
+                {
+                    "code": "hrv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ces",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dan",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "dut",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "eng",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fin",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "fre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "deu",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "gre",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "hun",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ita",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "nob",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "pol",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "por",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "rus",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slo",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "slv",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "spa",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "swe",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "vie",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ara",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "bul",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "est",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "heb",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "lav",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "lit",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ron",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "tur",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "ukr",
+                    "fontSet": "ww"
+                },
+                {
+                    "code": "zhs",
+                    "fontSet": "apac_chn"
+                },
+                {
+                    "code": "zht",
+                    "fontSet": "apac_twn"
+                },
+                {
+                    "code": "jpn",
+                    "fontSet": "apac_jpn"
+                },
+                {
+                    "code": "kor",
+                    "fontSet": "apac_kor"
+                },
+                {
+                    "code": "tha",
+                    "fontSet": "apac_tha"
+                }
+            ],
+            "number": "006-B4169-00"
+        }
+    ],
+    "resolution": {
+        "height": 400,
+        "width": 240
+    },
+    "screenRotationSupport": false,
+    "worldWidePartNumber": "006-B4169-00"
+}

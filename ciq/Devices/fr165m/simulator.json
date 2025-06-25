@@ -1,0 +1,1787 @@
+{
+    "appStorageCapacity": 10485760,
+    "complications": {
+        "time": {
+            "showAmPm": false
+        }
+    },
+    "constellationConfiguration": [
+        {
+            "configuration": [
+                "GPS L1",
+                "GALILEO L1",
+                "GLONASS",
+                "BEIDOU L1"
+            ],
+            "name": "All SKUs"
+        }
+    ],
+    "display": {
+        "behaviors": [
+            {
+                "gesture": "swipeRight",
+                "id": "onBack",
+                "maxDistToEdge": 81,
+                "maxSwipeDuration": 250,
+                "minSwipeDeltaX": 78,
+                "minSwipeDeltaY": 78
+            },
+            {
+                "gesture": "swipeLeft"
+            },
+            {
+                "gesture": "swipeUp",
+                "id": "nextPage"
+            },
+            {
+                "gesture": "swipeDown",
+                "id": "previousPage"
+            },
+            {
+                "gesture": "hold"
+            },
+            {
+                "gesture": "release"
+            },
+            {
+                "gesture": "tap",
+                "id": "onSelect"
+            }
+        ],
+        "isTouch": true,
+        "landscapeOrientation": 0,
+        "location": {
+            "height": 390,
+            "width": 390,
+            "x": 94,
+            "y": 221
+        },
+        "shape": "round"
+    },
+    "fonts": [
+        {
+            "fontSet": "ww",
+            "fonts": [
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "xtiny",
+                    "size": 5.7624,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "tiny",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "small",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "medium",
+                    "size": 10.0083,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "large",
+                    "size": 11.5248,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMild",
+                    "size": 16.6806,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMedium",
+                    "size": 20.6232,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberHot",
+                    "size": 24.8692,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberThaiHot",
+                    "size": 28.8119,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceFont",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceNumberFont",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "auxiliaryFont1",
+                    "size": 7.8328,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "auxiliaryFont2",
+                    "size": 6.6278,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "simExtNumber1",
+                    "size": 13.0412,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "RobotoRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "RobotoItalic",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Regular",
+                    "name": "NotoNaskhArabicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Bold",
+                    "name": "NotoNaskhArabicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Regular",
+                    "name": "NotoSansHebrewRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Bold",
+                    "name": "NotoSansHebrewBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Regular",
+                    "name": "NotoSansArmenianRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Bold",
+                    "name": "NotoSansArmenianBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Bionic_Bold",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-2",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-2",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "NanumGothicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "PridiRegular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_zh",
+            "fonts": [
+                {
+                    "ascent": 24,
+                    "descent": 6,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 30,
+                    "name": "xtiny",
+                    "size": 5.7624,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 35,
+                    "name": "tiny",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 36,
+                    "descent": 9,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 45,
+                    "name": "small",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 42,
+                    "descent": 11,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 53,
+                    "name": "medium",
+                    "size": 10.0083,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 48,
+                    "descent": 13,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 61,
+                    "name": "large",
+                    "size": 11.5248,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMild",
+                    "size": 16.6806,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMedium",
+                    "size": 20.6232,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberHot",
+                    "size": 24.8692,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberThaiHot",
+                    "size": 28.8119,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "NotoSansSC-Medium",
+                    "height": 35,
+                    "name": "glanceFont",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceNumberFont",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium",
+                    "name": "auxiliaryFont1",
+                    "size": 7.8328,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium",
+                    "name": "auxiliaryFont2",
+                    "size": 6.6278,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "simExtNumber1",
+                    "size": 13.0412,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "RobotoRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "RobotoItalic",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Regular",
+                    "name": "NotoNaskhArabicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Bold",
+                    "name": "NotoNaskhArabicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Regular",
+                    "name": "NotoSansHebrewRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Bold",
+                    "name": "NotoSansHebrewBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Regular",
+                    "name": "NotoSansArmenianRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Bold",
+                    "name": "NotoSansArmenianBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Bionic_Bold",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-2",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-2",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "NanumGothicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "PridiRegular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_jpn",
+            "fonts": [
+                {
+                    "ascent": 24,
+                    "descent": 6,
+                    "filename": "Kosugi-Regular",
+                    "height": 30,
+                    "name": "xtiny",
+                    "size": 5.7624,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "Kosugi-Regular",
+                    "height": 35,
+                    "name": "tiny",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 36,
+                    "descent": 9,
+                    "filename": "Kosugi-Regular",
+                    "height": 45,
+                    "name": "small",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 42,
+                    "descent": 11,
+                    "filename": "Kosugi-Regular",
+                    "height": 53,
+                    "name": "medium",
+                    "size": 10.0083,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 48,
+                    "descent": 13,
+                    "filename": "Kosugi-Regular",
+                    "height": 61,
+                    "name": "large",
+                    "size": 11.5248,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMild",
+                    "size": 16.6806,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMedium",
+                    "size": 20.6232,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberHot",
+                    "size": 24.8692,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberThaiHot",
+                    "size": 28.8119,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "Kosugi-Regular",
+                    "height": 35,
+                    "name": "glanceFont",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceNumberFont",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular",
+                    "name": "auxiliaryFont1",
+                    "size": 7.8328,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular",
+                    "name": "auxiliaryFont2",
+                    "size": 6.6278,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "simExtNumber1",
+                    "size": 13.0412,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "RobotoRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "RobotoItalic",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Regular",
+                    "name": "NotoNaskhArabicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Bold",
+                    "name": "NotoNaskhArabicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Regular",
+                    "name": "NotoSansHebrewRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Bold",
+                    "name": "NotoSansHebrewBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Regular",
+                    "name": "NotoSansArmenianRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Bold",
+                    "name": "NotoSansArmenianBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Bionic_Bold",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-2",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-2",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "NanumGothicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "PridiRegular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_kor",
+            "fonts": [
+                {
+                    "ascent": 24,
+                    "descent": 6,
+                    "filename": "NanumGothic-Bold",
+                    "height": 30,
+                    "name": "xtiny",
+                    "size": 5.7624,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "NanumGothic-Bold",
+                    "height": 35,
+                    "name": "tiny",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 36,
+                    "descent": 9,
+                    "filename": "NanumGothic-Bold",
+                    "height": 45,
+                    "name": "small",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 42,
+                    "descent": 11,
+                    "filename": "NanumGothic-Bold",
+                    "height": 53,
+                    "name": "medium",
+                    "size": 10.0083,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 48,
+                    "descent": 13,
+                    "filename": "NanumGothic-Bold",
+                    "height": 61,
+                    "name": "large",
+                    "size": 11.5248,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMild",
+                    "size": 16.6806,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMedium",
+                    "size": 20.6232,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberHot",
+                    "size": 24.8692,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberThaiHot",
+                    "size": 28.8119,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "NanumGothic-Bold",
+                    "height": 35,
+                    "name": "glanceFont",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceNumberFont",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "auxiliaryFont1",
+                    "size": 7.8328,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "auxiliaryFont2",
+                    "size": 6.6278,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "simExtNumber1",
+                    "size": 13.0412,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "RobotoRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "RobotoItalic",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Regular",
+                    "name": "NotoNaskhArabicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Bold",
+                    "name": "NotoNaskhArabicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Regular",
+                    "name": "NotoSansHebrewRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Bold",
+                    "name": "NotoSansHebrewBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Regular",
+                    "name": "NotoSansArmenianRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Bold",
+                    "name": "NotoSansArmenianBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Bionic_Bold",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-2",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-2",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "NanumGothicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "PridiRegular",
+                    "type": "system_ttf"
+                }
+            ]
+        },
+        {
+            "fontSet": "apac_tha",
+            "fonts": [
+                {
+                    "ascent": 24,
+                    "descent": 6,
+                    "filename": "Pridi-Regular",
+                    "height": 30,
+                    "name": "xtiny",
+                    "size": 5.7624,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "Pridi-Regular",
+                    "height": 35,
+                    "name": "tiny",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 36,
+                    "descent": 9,
+                    "filename": "Pridi-Regular",
+                    "height": 45,
+                    "name": "small",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 42,
+                    "descent": 11,
+                    "filename": "Pridi-Regular",
+                    "height": 53,
+                    "name": "medium",
+                    "size": 10.0083,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 48,
+                    "descent": 13,
+                    "filename": "Pridi-Regular",
+                    "height": 61,
+                    "name": "large",
+                    "size": 11.5248,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMild",
+                    "size": 16.6806,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberMedium",
+                    "size": 20.6232,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberHot",
+                    "size": 24.8692,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "numberThaiHot",
+                    "size": 28.8119,
+                    "type": "ttf"
+                },
+                {
+                    "ascent": 28,
+                    "descent": 7,
+                    "filename": "Pridi-Regular",
+                    "height": 35,
+                    "name": "glanceFont",
+                    "size": 6.6722,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "glanceNumberFont",
+                    "size": 8.4919,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "auxiliaryFont1",
+                    "size": 7.8328,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "auxiliaryFont2",
+                    "size": 6.6278,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "simExtNumber1",
+                    "size": 13.0412,
+                    "type": "ttf"
+                },
+                {
+                    "filename": "Roboto-Regular",
+                    "name": "RobotoRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Roboto-Italic",
+                    "name": "RobotoItalic",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Bold",
+                    "name": "RobotoCondensedBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "RobotoCondensed-Regular",
+                    "name": "RobotoCondensedRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Regular",
+                    "name": "NotoNaskhArabicRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoNaskhArabic-Bold",
+                    "name": "NotoNaskhArabicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Regular",
+                    "name": "NotoSansHebrewRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansHebrew-Bold",
+                    "name": "NotoSansHebrewBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Regular",
+                    "name": "NotoSansArmenianRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansArmenian-Bold",
+                    "name": "NotoSansArmenianBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Bionic_Bold",
+                    "name": "BionicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NotoSansSC-Medium-2",
+                    "name": "NotoSansSCMedium",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Kosugi-Regular-2",
+                    "name": "KosugiRegular",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "NanumGothic-Bold",
+                    "name": "NanumGothicBold",
+                    "type": "system_ttf"
+                },
+                {
+                    "filename": "Pridi-Regular",
+                    "name": "PridiRegular",
+                    "type": "system_ttf"
+                }
+            ]
+        }
+    ],
+    "glance": {
+        "cacheUpdate": false,
+        "contentArea": {
+            "height": 124,
+            "width": 261,
+            "x": 110,
+            "y": 0
+        },
+        "iconArea": {
+            "height": 50,
+            "width": 50,
+            "x": 46,
+            "y": 37
+        },
+        "liveUpdates": true,
+        "themes": {
+            "area": {
+                "height": 113,
+                "width": 390,
+                "x": 0,
+                "y": 5
+            },
+            "themes": [
+                {
+                    "filename": "nwidget_Default.png",
+                    "name": "default"
+                },
+                {
+                    "filename": "nwidget_Blue.png",
+                    "name": "blue"
+                },
+                {
+                    "filename": "nwidget_Yellow.png",
+                    "name": "gold"
+                },
+                {
+                    "filename": "nwidget_Green.png",
+                    "name": "green"
+                },
+                {
+                    "filename": "nwidget_Cyan.png",
+                    "name": "light_blue"
+                },
+                {
+                    "filename": "nwidget_Purple.png",
+                    "name": "purple"
+                },
+                {
+                    "filename": "nwidget_Red.png",
+                    "name": "red"
+                }
+            ]
+        }
+    },
+    "graphicsResourcePoolSize": 2097152,
+    "image": "fr165m.png",
+    "keys": [
+        {
+            "behavior": "onSelect",
+            "id": "enter",
+            "location": {
+                "height": 114,
+                "width": 71,
+                "x": 488,
+                "y": 234
+            }
+        },
+        {
+            "behavior": "previousPage",
+            "id": "up",
+            "location": {
+                "height": 77,
+                "width": 33,
+                "x": 0,
+                "y": 376
+            }
+        },
+        {
+            "behavior": "onMenu",
+            "id": "menu",
+            "isHold": true,
+            "location": {
+                "height": 77,
+                "width": 33,
+                "x": 0,
+                "y": 376
+            }
+        },
+        {
+            "behavior": "nextPage",
+            "id": "down",
+            "location": {
+                "height": 69,
+                "width": 70,
+                "x": 14,
+                "y": 514
+            }
+        },
+        {
+            "behavior": "onBack",
+            "id": "esc",
+            "location": {
+                "height": 80,
+                "width": 57,
+                "x": 488,
+                "y": 502
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "actionMenu": {
+                "area": {
+                    "height": 390,
+                    "width": 325,
+                    "x": 325,
+                    "y": 0
+                },
+                "borderDisplay": {
+                    "width": 5
+                },
+                "borderWidth": 5,
+                "colors": {
+                    "border": "134A4A",
+                    "selectedText": "FFFFFF",
+                    "text": "AAAAAA"
+                },
+                "entries": [
+                    {
+                        "alignment": "left",
+                        "height": 82,
+                        "scrolling": true,
+                        "selection": true,
+                        "shortenWithEllipsis": true,
+                        "spacing": 10,
+                        "stringMaxWidth": 318,
+                        "textPadding": 45,
+                        "x": 10,
+                        "y": 154
+                    }
+                ],
+                "expands": true,
+                "font": "small",
+                "fontFocused": "auxiliaryFont1",
+                "selectionDisplay": {
+                    "height": 93,
+                    "image": "nLists_Default.png",
+                    "width": 390,
+                    "x": 7,
+                    "y": 148
+                },
+                "type": "partial"
+            },
+            "datafields": {
+                "datafields": [
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 239
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 113
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 390,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "1 Field"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 185
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 82
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 193,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 129
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 194,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 196
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "2 Fields"
+                    },
+                    {
+                        "drawBorders": false,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 134
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 138,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 99
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 110,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 136
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 81
+                                },
+                                "labelDisabled": true,
+                                "location": {
+                                    "height": 140,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 250
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields A"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 115
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 49
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 125,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberThaiHot",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 124
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 25
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 135,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 128
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMild",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 91
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 27
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 124,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 266
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "3 Fields B"
+                    },
+                    {
+                        "drawBorders": true,
+                        "fields": [
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 127
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 51
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 138,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "top",
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 96,
+                                    "y": 90
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 96,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 116,
+                                    "width": 193,
+                                    "x": 0,
+                                    "y": 141
+                                },
+                                "obscurity": [
+                                    "left"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "simExtNumber1",
+                                    "justification": "center",
+                                    "width": 193,
+                                    "x": 96,
+                                    "y": 90
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 96,
+                                    "y": 31
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 116,
+                                    "width": 193,
+                                    "x": 196,
+                                    "y": 141
+                                },
+                                "obscurity": [
+                                    "right"
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "font": "numberMedium",
+                                    "justification": "center",
+                                    "width": 390,
+                                    "x": 195,
+                                    "y": 99
+                                },
+                                "label": {
+                                    "font": "xtiny",
+                                    "justification": "center",
+                                    "x": 195,
+                                    "y": 23
+                                },
+                                "labelDisabled": false,
+                                "location": {
+                                    "height": 130,
+                                    "width": 390,
+                                    "x": 0,
+                                    "y": 260
+                                },
+                                "obscurity": [
+                                    "left",
+                                    "right",
+                                    "bottom"
+                                ]
+                            }
+                        ],
+                        "name": "4 Fields"
+                    }
+                ]
+            },
+            "menu2": {
+                "customFooter": {
+                    "height": 115,
+                    "width": 217,
+                    "x": 86,
+                    "y": 33
+                },
+                "customTitle": {
+                    "height": 115,
+                    "width": 217,
+                    "x": 86,
+                    "y": 33
+                },
+                "doneButtons": {
+                    "bottom": true
+                },
+                "footer": {
+                    "height": 148,
+                    "width": 390,
+                    "x": 0,
+                    "y": 0
+                },
+                "footerString": {
+                    "font": "tiny",
+                    "lineCount": 1,
+                    "width": 315,
+                    "x": 194,
+                    "y": 96
+                },
+                "items": {
+                    "checks": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "check_off.png",
+                            "enabledIconFile": "check_on.png",
+                            "x": 4,
+                            "y": 15
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "check_off.png",
+                            "enabledIconFile": "check_on.png",
+                            "x": 277,
+                            "y": 15
+                        }
+                    ],
+                    "divider": 0,
+                    "icons": {
+                        "check": "left",
+                        "icon": "left",
+                        "leftLocation": {
+                            "height": 86,
+                            "width": 65,
+                            "x": 4,
+                            "y": 1
+                        },
+                        "rightLocation": {
+                            "height": 86,
+                            "width": 65,
+                            "x": 266,
+                            "y": 1
+                        },
+                        "toggle": "right"
+                    },
+                    "item": {
+                        "height": 93,
+                        "labelFont": "small",
+                        "shortenWithEllipsis": true,
+                        "subLabelFont": "tiny",
+                        "width": 390,
+                        "xOffset": 47,
+                        "xOffsetItem": 47
+                    },
+                    "region": {
+                        "height": 86,
+                        "width": 390,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "stringWidths": {
+                        "basic": 335,
+                        "check": 173,
+                        "icon": 159,
+                        "toggle": 282
+                    },
+                    "toggles": [
+                        {
+                            "alignment": "left",
+                            "disabledIconFile": "toggle_off.png",
+                            "enabledIconFile": "toggle_on.png",
+                            "x": 4,
+                            "y": 12
+                        },
+                        {
+                            "alignment": "right",
+                            "disabledIconFile": "toggle_off.png",
+                            "enabledIconFile": "toggle_on.png",
+                            "x": 310,
+                            "y": 12
+                        }
+                    ]
+                },
+                "mode": "touchButton",
+                "themes": {
+                    "area": {
+                        "height": 93,
+                        "width": 390,
+                        "x": 0,
+                        "y": 148
+                    },
+                    "themes": [
+                        {
+                            "filename": "nLists_Default.png",
+                            "name": "default"
+                        },
+                        {
+                            "filename": "nLists_Blue.png",
+                            "name": "blue"
+                        },
+                        {
+                            "filename": "nLists_Cyan.png",
+                            "name": "cyan"
+                        },
+                        {
+                            "filename": "nLists_Green.png",
+                            "name": "green"
+                        },
+                        {
+                            "filename": "nLists_Yellow.png",
+                            "name": "yellow"
+                        },
+                        {
+                            "filename": "nLists_Orange.png",
+                            "name": "orange"
+                        },
+                        {
+                            "filename": "nLists_Red.png",
+                            "name": "red"
+                        },
+                        {
+                            "filename": "nLists_Pink.png",
+                            "name": "pink"
+                        },
+                        {
+                            "filename": "nLists_Purple.png",
+                            "name": "purple"
+                        },
+                        {
+                            "filename": "nLists_Yellow_Green.png",
+                            "name": "yellow_green"
+                        }
+                    ]
+                },
+                "title": {
+                    "height": 148,
+                    "width": 390,
+                    "x": 0,
+                    "y": 0
+                },
+                "titleString": {
+                    "font": "tiny",
+                    "lineCount": 1,
+                    "width": 315,
+                    "x": 194,
+                    "y": 96
+                }
+            },
+            "notification": {
+                "autoDismissTime": 30000,
+                "body": {
+                    "font": "tiny",
+                    "height": 988,
+                    "lineCount": 50,
+                    "lineSpacing": 1,
+                    "width": 312,
+                    "x": 39,
+                    "y": 147
+                },
+                "icon": {
+                    "height": 56,
+                    "previewHeight": 85,
+                    "previewWidth": 85,
+                    "previewX": 195,
+                    "previewY": 138,
+                    "width": 56,
+                    "x": 195,
+                    "y": 43
+                },
+                "mode": "preview",
+                "showIcon": true,
+                "showSubtitle": false,
+                "subtitle": {
+                    "font": "tiny",
+                    "height": 69,
+                    "lineCount": 10,
+                    "lineSpacing": 1,
+                    "width": 312,
+                    "x": 39,
+                    "y": 181
+                },
+                "title": {
+                    "font": "small",
+                    "height": 87,
+                    "lineCount": 4,
+                    "lineSpacing": 1,
+                    "width": 312,
+                    "x": 39,
+                    "y": 86
+                },
+                "type": "fullscreen",
+                "yPadding": 31
+            },
+            "orientation": "portrait",
+            "pageIndicator": {
+                "colors": {
+                    "background": "000000",
+                    "outline": "808080",
+                    "selected": "808080"
+                },
+                "location": "left",
+                "timeout": 3000,
+                "type": "arc"
+            },
+            "picker": {
+                "entries": [
+                    {
+                        "height": 148,
+                        "width": 271,
+                        "x": 59,
+                        "y": 187
+                    }
+                ],
+                "nextArrow": {
+                    "height": 15,
+                    "width": 22,
+                    "x": 184,
+                    "y": 172
+                },
+                "previousArrow": {
+                    "height": 16,
+                    "width": 22,
+                    "x": 184,
+                    "y": 335
+                },
+                "showConfirm": false,
+                "title": {
+                    "height": 38,
+                    "width": 299,
+                    "x": 45,
+                    "y": 70
+                }
+            },
+            "toast": {
+                "autoDismissTime": 30000,
+                "height": 141,
+                "icon": {
+                    "height": 30,
+                    "width": 30,
+                    "x": 195,
+                    "y": 15
+                },
+                "imagePath": "notification_banner.png",
+                "text": {
+                    "font": "xtiny",
+                    "fontSingleLine": "tiny",
+                    "height": 60,
+                    "lineCount": 2,
+                    "shortenWithEllipsis": true,
+                    "staticJustification": 5,
+                    "width": 218,
+                    "x": 86,
+                    "y": 85
+                },
+                "type": "background"
+            }
+        }
+    ],
+    "minimumRequiredSimulatorVersion": "4.2.0",
+    "ppi": 325,
+    "screenProtectionSupport": true,
+    "sensorHistory": [
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "elevation"
+        },
+        {
+            "interval": 60,
+            "size": 360,
+            "type": "heartrate"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "pressure"
+        },
+        {
+            "interval": 3600,
+            "size": 192,
+            "type": "pulseox"
+        },
+        {
+            "interval": 120,
+            "size": 180,
+            "type": "temperature"
+        }
+    ],
+    "sensorSampleRate": {
+        "highFrequencyRate": true,
+        "maxAccelRate": 100,
+        "maxMagRate": 50
+    },
+    "solarChargingSupport": false,
+    "watchdogCount": 240000,
+    "wifiExclusions": [
+        "normal"
+    ]
+}
